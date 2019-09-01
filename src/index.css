@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  color: tomato;
+}
+
+.counter-container {
+  border: 1px solid silver;
+}
