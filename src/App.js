@@ -12,6 +12,7 @@ const App = () => {
   return (
     <React.Fragment>
       <h1 className="title">Hello, {name}! How are you?</h1>
+      <button onClick={() => satName('Math')}>Set Name</button>
       <div className="counter-container">
         <div>Counter: {count}</div>
         <button onClick={() => setCount(c => c - 1)}>-</button>
