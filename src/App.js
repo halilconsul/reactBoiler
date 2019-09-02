@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { hot } from "react-hot-loader";
+import React, { useState } from 'react'
+import { hot } from 'react-hot-loader'
 
-import "./index.css";
+import './index.css'
 
-const Warning = React.lazy(() => import("./Warning"));
+const Warning = React.lazy(() => import('./Warning'))
 
 const App = () => {
-  const [name, satName] = useState("John");
-  const [count, setCount] = useState(0);
+  const [name, satName] = useState('John')
+  const [count, setCount] = useState(0)
 
   return (
     <React.Fragment>
@@ -25,7 +25,7 @@ const App = () => {
         )}
       </div>
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default hot(module)(App);
+export default hot(module)(App)
